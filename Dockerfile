@@ -8,4 +8,4 @@ COPY run.sh /root
 
 WORKDIR /root
 
-ENTRYPOINT [ "/bin/bash", "/root/run.sh" ]
+ENTRYPOINT [ "/bin/sh", "/root/run.sh" ]
